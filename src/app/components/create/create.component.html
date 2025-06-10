@@ -1,0 +1,56 @@
+<div class="container  ancho">
+  <h1>Registrate para poder realizar tus compras </h1>
+  <div class="row ">
+    <div class="col border border-5">
+    <div class="flex-container">
+      <div class="imagen">
+      <img src = "../../../assets/multimedia/registro.png" alt="">
+      </div>
+    </div>
+  </div>
+    <div class="col border border-5">
+      <form (ngSubmit)="handleSubmit()">
+      <div class="mb-3 ">
+        <h2>Acceso</h2>
+        <label for="inputName" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputName"
+          placeholder="Escriba su nombre"
+          aria-describedby="nameHelp"
+          name="nombre"
+          [(ngModel)]="nombre"
+        />
+      </div>
+        <div class="mb-3 ">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="inputEmail"
+          placeholder="Escriba su correo"
+          aria-describedby="emailHelp"
+          name="correoElectronico"
+          [(ngModel)]="correoElectronico"
+        />
+      </div>
+      <div class="mb-3 ">
+        <label for="inputPassword" class="form-label">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="inputPassword"
+          placeholder="Escriba su contraseña"
+          name="contrasenia"
+          [(ngModel)]="contrasenia"
+        />
+      </div>
+      <button type="submit" class=" colorBoton col-12 btn">
+        Registrar
+      </button>
+        </form>
+    </div>
+  </div>
+</div>
+

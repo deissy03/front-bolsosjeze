@@ -1,0 +1,119 @@
+
+.logoFooter {
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    margin-top: 12px;
+    margin-inline-start: 229px;
+} 
+.colorFondo{
+    margin: 0;
+    background-color: var(--crema);
+}
+.EspacioIconos{
+    margin-inline-start: 205px;
+}
+.iconos2{
+    margin-top: 100px;
+    padding: 5px;
+    height: 35px;
+    width: 35px;  
+}
+.texto {
+   margin-bottom: 10px;
+   font-size: 17px;
+   text-align: center;
+   color: var(--cafeMedio);
+   margin-top: 15px;
+}
+
+h5{
+   margin-top: 15px;
+   font-size: 20px;
+   text-align: center;
+   color: var(--cafeMedio);
+}
+h6{
+   font-size: 18px;
+   text-align: center;
+   color: var(--cafeMedio);
+}
+ 
+
+@media (max-width:768px){
+    .logoFooter {
+        height: 100px;
+        width: 100px;
+        position:absolute;
+        margin-top: 10px;
+        margin-inline-start: 90px;
+        
+    } 
+    .copy{
+        margin-top: 70px;
+    }
+    
+    .colorFondo{
+        margin: 0;
+        background-color: var(--crema);
+    }
+    .EspacioIconos{
+        margin-inline-start: 73px;
+    }
+    .iconos2{
+        margin-top: 100px;
+        padding: 5px;
+        height: 30px;
+        width: 30px;  
+    }
+    .texto {
+       font-size: 14px;
+       margin-left: 17px;
+    }
+    h5{
+       margin-top: 10px;
+       font-size: 17px;
+       text-align: center;
+    }
+    h6{
+       font-size: 15px;
+       text-align: center;
+    }
+}
+
+@media (max-width:375px ){
+    .logoFooter {
+        height: 100px;
+        width: 100px;
+        position:absolute;
+        margin-top: 10px;
+        margin-inline-start: 140px;
+    } 
+    .colorFondo{
+        margin: 0;
+        background-color: var(--crema);
+    }
+    .EspacioIconos{
+        margin-inline-start: 120px;
+    }
+    .iconos2{
+        margin-top: 100px;
+        padding: 5px;
+        height: 30px;
+        width: 30px;  
+    }
+    .texto {
+       text-align: center; 
+       font-size: 16px;
+    }
+    h5{
+       margin-top: 10px;
+       font-size: 17px;
+       text-align: center;
+    }
+    h6{
+       font-size: 15px;
+       text-align: center;
+    }
+    
+}

@@ -1,0 +1,140 @@
+.body{
+    background-color: var(--grisFondo);
+}
+.row {
+    background-color: var(--crema);
+}
+
+.ancho{
+    background-color:#a7aaa7;
+    padding-top: 50px;
+    width: 50%;
+    margin-top: 150px;
+    padding-bottom: 90px;
+      
+ }
+ .colorBoton{
+     background-color: var(--grisclaro);
+     font-size: 18px;
+ }
+
+ .flex-container{
+ display: flex;
+ align-items: center;
+ 
+ }
+ .imagen{
+     flex:1;
+     text-align: center;
+ }
+ .imagen img{
+     max-width: 100%;
+     height: auto;
+ }
+ form{
+ display: flex;
+ flex-direction: column;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-size: 16px;
+     
+ }
+ h1{
+     text-align: center;
+ }
+ .btn:hover{
+    background-color:var( --fuciaoscuro); 
+ }
+ @media (max-width:375px){
+     .ancho{
+       
+         padding-top: 30px;
+         width: 100%;
+        padding-bottom: 30px;  
+     }
+     h1{
+         font-size: 10px;
+         color:var(--crema);
+     }
+     h2{
+         font-size: 14px;
+     }
+     label{
+         font-size: 13px;
+     }
+     input{
+         font-size: 11px;
+     }
+     .colorBoton{
+         font-size: 12px;
+     }
+     .colorBoton:hover {
+      background-color: var(--fuciaoscuro);
+      color:white;
+     }
+     a{
+         font-size: 11px;
+     }
+     .flex-container{
+         display: flex;
+         align-items: center;
+       
+         }
+         .imagen{
+             margin-top:50px ;
+             text-align: center;
+            
+         }
+         .imagen img{
+             width: 100%;
+             height: auto;
+         }
+ 
+ }
+ @media (max-width:768px){
+     .ancho{
+       
+         padding-top: 20px;
+         width: 100%;
+        padding-bottom: 20px;  
+     }
+     h1{
+         font-size: 27px;
+     }
+     h2{
+         font-size: 16px;
+     }
+     label{
+         font-size: 15px;
+     }
+     input{
+         font-size: 13px;
+     }
+     .colorBoton{
+         font-size: 14px;
+     }
+     .colorBoton:hover {
+      background-color: var(--fuciaoscuro);
+      color:white;
+     }
+     a{
+         font-size: 13px;
+     }
+     .flex-container{
+         display: flex;
+         align-items: center;
+       
+         }
+         .imagen{
+             margin-top:20px ;
+             text-align: center;
+            
+         }
+         .imagen img{
+             width: 100%;
+             height: auto;
+         }
+         
+ }

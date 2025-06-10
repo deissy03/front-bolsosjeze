@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+:root{
+ --cafeOscuro: #422518; 
+ --cafeMedio:#a66e4c;
+ --crema: #ded0b7;
+ --grisFondo:#eaebea;
+ --grisoscuro:#484848;
+ --grisclaro:#898d8c;
+ --grisMasClaro:#e2e2e2;
+
+}
+.body{
+    background-color: var(--grisFondo);
+} 
+.toast-warning{
+ background-color:var(--grisclaro)
+ 
+}
+.toast-success{
+ background-color:var(--grisclaro);
+ font-size: 15px;
+ padding: 50px;
+}
+.toast-info{
+    background-color:var(--grisclaro);  
+}
+ul{
+   
+    color: #a66e4c;
+    margin-bottom: 20px;
+    font-size: 3px;
+    margin-left:90px ;
+}
+
+p{
+    text-align:center;
+    color: #a66e4c;
+    font-size: 23px;
+}
+/*@media (min-width:1024px){
+    .logoFooter{
+       position: absolute; 
+       height:155px ;
+       
+    }
+    .colorFooter{
+     height: 410px;
+     width: 100%;
+     
+    }
+    .card-body{
+     margin: 0;
+     padding: 0;
+    }
+    
+}
+@media (max-width:375px){
+    .toast-success{
+       
+        height: 70px;
+    }
+
+    .logoFooter {
+   
+        height: 75px;
+        width: 100px; 
+
+        
+    }
+}*/

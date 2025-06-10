@@ -1,0 +1,116 @@
+.carritolleno{
+  height: 190px;
+  width: 120px;
+
+}
+h1{
+  color: var(--fuciaoscuro);
+  text-align: center;
+  padding-top: 90px;
+}
+.medida{
+  width: 80%;
+  height: 100%;
+  position: relative;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+ 
+ 
+}
+.tamanoImagen{
+    width: 200px;
+    height: 200px; 
+}
+.card-imagenes{
+    text-align: center;
+    padding: 20px;
+}
+.borde{
+  border: 3px solid var(--fuciaoscuro);
+}
+.total{
+    text-align: center;
+    color: var(--fuciaoscuro);   
+}
+.botones{
+    text-align: center;
+    height: 50px;
+   
+}
+.card-body{
+color: var(--fuciaoscuro); 
+
+}
+.card-precio{
+color:var(--grisoscuro);
+}
+.botoneliminar{
+background-color: var(--grisMasClaro);
+}
+.botoneliminar:hover{
+background-color: var(--crema);
+}
+.botonvaciar{
+background-color: rgb(225, 180, 151);
+font-size: 20px;
+}
+.botonvaciar:hover{
+    background-color: var(--grisMasClaro);
+    } 
+ .botonagregar{
+background-color: rgb(218, 151, 95);
+font-size: 20px;
+}
+.botonagregar:hover{
+    background-color: var(--grisMasClaro);
+    } 
+.botoncomprar{
+background-color: rgb(168, 142, 111);
+font-size: 20px;
+
+}
+.botoncomprar:hover{
+    background-color: var(--grisMasClaro);
+    } 
+    @media (max-width:375px){
+ h3{
+    font-size: 15px;
+ }
+ h4{
+    font-size: 15px;
+ }
+ .botonvaciar{
+   font-size: 13px; 
+   
+ }
+ .botonagregar{
+    font-size: 13px; 
+    
+  }
+  .botoncomprar{
+    font-size: 13px; 
+    
+  }
+  .medida{
+    width: 100%;
+    height: 80%;
+    margin-top: 50px;
+    text-align: center;
+   
+  }
+}
+  @media (max-width:768px){
+    .medida{
+      width: 100%;
+      height: 80%;
+      margin-top: 50px;
+      text-align: center;
+      margin-right: 120px;
+     
+    }
+
+
+
+  }
+    
