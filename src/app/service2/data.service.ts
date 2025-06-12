@@ -11,7 +11,7 @@ export class DataService {
   //otro metodo//
   async getDatos(): Promise<Ejemplo[]> {
     return await firstValueFrom(
-      this.http.get<any>(`http://localhost:3000/productos/`).pipe(map((DataService) => DataService.datos as Ejemplo[]))
+      this.http.get<any>(`http://localhost:3.148.243.237:3000/productos/`).pipe(map((DataService) => DataService.datos as Ejemplo[]))
     );
   }
   
