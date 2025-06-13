@@ -9,7 +9,7 @@ import { Credential } from '../interfaces/credential';
 })
 export class LoginService {
   constructor(private httpClient:HttpClient) {}
-  API_URL = 'http://3.148.243.237:3000/inicio-sesion';
+  API_URL = 'http://3.138.61.120:3000/inicio-sesion';
  
   toastrService = inject(ToastrService);
   router = inject(Router);
