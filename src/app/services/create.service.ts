@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class CreateService {
 
   constructor(private httpClient:HttpClient) {}
-  API_URL ='http://3.138.61.120:3000/usuarios';
+  API_URL ='http://3.146.152.208:3000/usuarios';
 
 
     createUser(nombre: string, correoElectronico: string, contrasenia: string) {
